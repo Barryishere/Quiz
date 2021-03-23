@@ -1,0 +1,77 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!--可能造成Activity，Window动画不执行-->
+    <style name="TransTheme" parent="AppTheme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="TransTheme">
+        <item name="android:windowBackground">@drawable/bitmap_splash</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityOpenEnterAnimation">@null</item>
+    </style>
+
+    <!--按钮样式-->
+    <style name="CrystalButton" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/drawable_clear_rounded</item>
+    </style>
+
+    <style name="CrystalButtonSharp" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/drawable_clear_sharp</item>
+    </style>
+
+    <style name="CrystalButtonSharp.Home" parent="CrystalButtonSharp.Light">
+        <item name="android:textColor">@color/colorWhiteTrans66</item>
+    </style>
+
+    <style name="CrystalButtonSharp.Light" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/drawable_light_sharp</item>
+    </style>
+
+    <style name="RoundedButton" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/drawable_clear_circle</item>
+    </style>
+
+    <style name="ColoredRoundedButton" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/drawable_clear_circle_colored</item>
+    </style>
+
+    <style name="QTabItem">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="TableHeaderHorizontal">
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@color/colorCell0</item>
+    </style>
+
+    <style name="TableHeaderVertical">
+        <item name="android:background">@color/colorCell0</item>
+    </style>
+
+    <style name="FunctionItem" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textColor">@color/colorWhiteTransDD</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>

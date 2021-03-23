@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityMain_coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bitmap_splash"
+    android:orientation="vertical"
+    tools:context=".ViewController.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhiteTrans33"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/activityMain_Greet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:paddingTop="12dp"
+            android:text="Quiz"
+            android:textColor="@color/colorWhiteTrans99"
+            android:textSize="24sp"/>
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/main_buttonSyllabus"
+                    style="@style/FunctionItem"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_button_syllabus"
+                    android:text="课表"/>
+
+                <Button
+                    android:id="@+id/main_buttonNotification"
+                    style="@style/FunctionItem"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_button_notification"
+                    android:text="通知"/>
+
+                <Button
+                    android:id="@+id/main_buttonGrade"
+                    style="@style/FunctionItem"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_button_grade"
+                    android:text="成绩"/>
+
+                <Button
+                    android:id="@+id/main_buttonCard"
+                    style="@style/FunctionItem"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_button_card"
+                    android:text="水卡"/>
+
+                <Button
+                    android:id="@+id/main_buttonBook"
+                    style="@style/FunctionItem"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_button_book"
+                    android:text="借阅记录"/>
+
+                <Button
+                    android:id="@+id/main_buttonAbout"
+                    style="@style/FunctionItem"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_button_star"
+                    android:text="关于APP"/>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/activityMain_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#EDEDED"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"/>
+
+    <Button
+        android:id="@+id/activityMain_make"
+        style="@style/ColoredRoundedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="设置新提醒"
+        android:textColor="@color/colorWhiteTransDD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

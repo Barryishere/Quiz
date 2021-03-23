@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="QuizDB"/>
+    <version value="16"/>
+
+    <list>
+        <mapping class="com.Aaronatomy.Quiz.Database.Message"/>
+        <mapping class="com.Aaronatomy.Quiz.Database.User"/>
+        <mapping class="com.Aaronatomy.Quiz.Database.Reminder"/>
+    </list>
+
+</litepal>

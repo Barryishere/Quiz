@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bitmap_splash"
+    android:layoutAnimation="@anim/layout_reveal"
+    tools:context=".ViewController.AuthActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layoutAnimation="@anim/layout_reveal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:text="@string/auth_login"
+            android:textColor="@color/colorWhiteTrans99"
+            android:textSize="40sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="36dp"
+            android:layout_marginTop="6dp"
+            android:text="@string/auth_hint"
+            android:textColor="@color/colorWhiteTrans66"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/auth_inputAccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rounded_rect_top"
+                android:hint="@string/account"
+                android:inputType="number"
+                android:maxLines="1"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhiteTrans99"/>
+
+            <EditText
+                android:id="@+id/auth_inputPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rounded_rect_middle"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="@color/colorWhite"
+                android:textColorHint="@color/colorWhiteTrans99"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_rounded_rect_bottom"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/auth_inputVerifyCode"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_rounded_rect_trans_no_padding"
+                    android:hint="@string/secretCode"
+                    android:inputType="textVisiblePassword"
+                    android:maxLines="1"
+                    android:textColor="@color/colorWhite"
+                    android:textColorHint="@color/colorWhiteTrans99"/>
+
+                <ImageView
+                    android:id="@+id/auth_verifyCode"
+                    android:layout_width="96dp"
+                    android:layout_height="match_parent"
+                    tools:ignore="ContentDescription"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/auth_loginButton"
+            style="@style/CrystalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp"
+            android:text="@string/auth_login"
+            android:textColor="@color/colorWhiteTrans99"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <com.Aaronatomy.Quiz.Utility.WaveView
+        android:id="@+id/waveView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</android.support.constraint.ConstraintLayout>

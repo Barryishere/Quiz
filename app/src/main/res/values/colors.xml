@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#409AE6</color>
+    <color name="colorPrimaryDark">#1488CC</color>
+    <color name="colorAccent">#99FFFFFF</color>
+    <color name="colorGreen">#77C34F</color>
+    <color name="colorPink">#FB7299</color>
+    <color name="colorPeach">#FE4065</color>
+    <color name="colorAlert">#EE2222</color>
+    <color name="colorWarning">#EE9900</color>
+    <color name="colorTrans">#00000000</color>
+
+    <color name="PagerBackground">#FEFEFE</color>
+    <color name="tabBackground">#F8F8F8</color>
+    <color name="tabBorder">#AFAFAF</color>
+    <color name="tabPrimary">#929292</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWhiteTrans11">#11FFFFFF</color>
+    <color name="colorWhiteTrans33">#33FFFFFF</color>
+    <color name="colorWhiteTrans66">#66FFFFFF</color>
+    <color name="colorWhiteTrans99">#99FFFFFF</color>
+    <color name="colorWhiteTransDD">#DDFFFFFF</color>
+
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackTrans11">#11000000</color>
+    <color name="colorBlackTrans33">#33000000</color>
+    <color name="colorBlackTrans66">#66000000</color>
+    <color name="colorBlackTrans99">#99000000</color>
+    <color name="colorBlackTransBB">#BB000000</color>
+    <color name="colorBlackTransEE">#EE000000</color>
+
+    <color name="colorCell0">#EFF9F8</color>
+    <color name="colorCell1">#CAE7AF</color>
+    <color name="colorCell2">#F5CCD0</color>
+    <color name="colorCell3">#B1DEF2</color>
+    <color name="colorCell4">#B7D8CF</color>
+    <color name="colorCell5">#F4CFDC</color>
+    <color name="colorCell6">#EECAD6</color>
+    <color name="colorCell7">#F8E2B9</color>
+
+    <color name="a1">#FF6E97</color>
+    <color name="a2">#82A6F5</color>
+
+    <color name="c1">#5ACE3A</color>
+    <color name="c2">#3A93F7</color>
+    <color name="c3">#F63272</color>
+    <color name="c4">#F7BB42</color>
+    <color name="c5">#8A6DF7</color>
+    <color name="c6">#EE2222</color>
+
+</resources>

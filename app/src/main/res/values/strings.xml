@@ -1,0 +1,95 @@
+<resources>
+    <!-- Global -->
+    <string name="app_name">Quiz</string>
+    <string name="title_activity_login">Quiz</string>
+    <string name="loading">加载中，请稍后</string>
+    <string name="string_dots">⚫ ⚫ ⚫</string>
+    <string name="转义字符">&#160; \n</string>
+
+    <!-- Text -->
+    <string name="title_home">主页</string>
+    <string name="title_notification">通知</string>
+    <string name="title_chat">群聊</string>
+    <string name="title_table">课表</string>
+    <string name="title_reminder">提醒</string>
+    <string name="title_function">更多</string>
+    <string name="account">账号</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="secretCode">验证码</string>
+    <string name="greetToUser">%s&#160;同学，你好！</string>
+    <string name="alertDeleteCanNotRecall">删除操作不可撤销</string>
+    <string name="makeReminder">设置提醒</string>
+    <string name="hintMakeReminder">请键入提醒的内容</string>
+    <string name="postAsClass">以班级发送</string>
+    <string name="postAsInstitution">以教务处发送</string>
+
+    <string name="titleBills">消费记录</string>
+    <string name="titleGrades">考试成绩</string>
+    <string name="titleSyllabus">个人课表</string>
+    <string name="titleNotification">班级通知</string>
+
+    <string name="Period">时间</string>
+    <string name="Day1">周一</string>
+    <string name="Day2">周二</string>
+    <string name="Day3">周三</string>
+    <string name="Day4">周四</string>
+    <string name="Day5">周五</string>
+    <string name="Day6">周六</string>
+    <string name="Day7">周日</string>
+    <string name="P1">1</string>
+    <string name="P2">2</string>
+    <string name="P3">3</string>
+    <string name="P4">4</string>
+    <string name="P5">5</string>
+    <string name="P6">6</string>
+    <string name="P7">7</string>
+    <string name="P8">8</string>
+    <string name="P9">9</string>
+    <string name="P10">10</string>
+
+    <string-array name="year">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <!-- AuthActivity -->
+    <string name="auth_greet">欢迎来到Quiz</string>
+    <string name="auth_introduce">APP designed by Aaronatomy</string>
+    <string name="auth_account">账号</string>
+    <string name="auth_password">密码</string>
+    <string name="auth_hint">请使用学号和校园网密码登录</string>
+    <string name="auth_login">登录</string>
+    <!-- MainActivity -->
+    <string name="postButton">发送</string>
+    <string name="actionButton">行动</string>
+    <!-- NotificationFragment1 -->
+    <string name="EmptySuggestion">还没有收到任何消息，请稍等片刻或检查网络设置</string>
+    <string name="fragment1_reminder">提醒</string>
+    <!-- ChatFragment2 -->
+    <string name="fragment2_hint">说点什么…</string>
+    <string name="fragment2_send">发送</string>
+    <string name="MqttException">我们遇到了一些困难：</string>
+    <string name="MqttConnectionLost">连接已丢失</string>
+    <string name="MqttMsgDeliverFailed">消息发送失败，请在检查网络后重试</string>
+    <string name="MqttMsgDeliverSucceed">消息已发送</string>
+    <string name="MqttActionSucceed">MQTT 操作成功：</string>
+    <string name="MqttActionFailed">MQTT 操作失败：</string>
+    <!-- ActionActivity -->
+    <string name="action_title">发布</string>
+    <string name="action_alert">确认取消订阅吗？</string>
+    <string name="action_confirm">取消订阅</string>
+    <string name="action_titlePost">说点什么</string>
+    <string name="action_doPost">发送</string>
+    <string name="action_hint">请输入需要订阅的主题</string>
+    <string name="action_doSubscribe">立即订阅</string>
+    <string name="post_hint">向&#160;%s&#160;发送消息</string>
+    <string name="post_hint_normal">说点什么吧</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank tableFragmentWeakReference</string>
+    <string name="university_news">师大要闻*安庆师范大学</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+</resources>
